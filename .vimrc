@@ -6,7 +6,7 @@ Plug 'neoclide/coc.nvim',{'branch':'release'}
 
 call plug#end()
 
-autocmd vimenter * NERDTree
+" autocmd vimenter * NERDTree
 
 " 基本设置
 set number            " 显示行号
