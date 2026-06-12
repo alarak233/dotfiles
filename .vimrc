@@ -36,6 +36,12 @@ set fileformat=unix   " 设置换行符格式为 Unix
 set mouse=a           " 启用鼠标支持
 
 " 主题
+set guioptions+=d
+set guioptions-=T
+set guioptions-=m
+set guioptions-=r
+set guioptions-=l
+set background=dark
 colorscheme codedark
 
 " vim-coc快捷键配置
